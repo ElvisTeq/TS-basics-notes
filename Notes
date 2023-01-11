@@ -1,0 +1,17 @@
+9.
+
+------------------------------------- html 5
+
+- Create initial HTML file skeleton
+
+* added <script src="app.js" defer></script>
+
+- Created [app.ts] when "tsc" will compile into "app.js"
+
+------------------------------------- npm init
+
+------------------------------------- npm i --save-dev lite-server
+
+- tool to open out app in web
+
+* "start": "lite-server" added to "package.json" scripts
