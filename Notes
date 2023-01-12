@@ -15,3 +15,9 @@
 - tool to open out app in web
 
 * "start": "lite-server" added to "package.json" scripts
+
+11.
+
+Core Types of TS
+
+- number, string, boolean
