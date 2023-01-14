@@ -49,3 +49,13 @@ Core Types of TS
 
 - To explicitly assign LENGTH & TYPE position in array
 - .push() will break the rule
+
+20.
+
+- Enum
+
+-------------------------------------- enum Role { ANYTHING, ANYTHING, ANYTHING };
+
+- Creating a Enum
+- To assign labels into INDEX NUMBER
+- Labels values can be ANYTHING "numbers will automatically be assign +1 to the previous one"
