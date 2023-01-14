@@ -40,3 +40,12 @@ Core Types of TS
 -------------------------------------- : string[]
 -------------------------------------- : number[]
 -------------------------------------- : boolean[]
+
+19.
+
+- Tuple
+
+-------------------------------------- : { role: [type, type] }
+
+- To explicitly assign LENGTH & TYPE position in array
+- .push() will break the rule

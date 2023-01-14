@@ -6,11 +6,20 @@
 // }
 
 // TS will automatically assign the first TYPE as Default in the future
-const person = {
+const person: {
+  name: string;
+  age: number;
+  hobbies: string[];
+  role: [number, string];
+} = {
   name: "Elvis",
   age: 30,
   hobbies: ["Sports", "Cooking"],
+  role: [2, "author"],
 };
+
+// person.role.push("admin");
+// - .push() breaks the TYPE rule
 
 let favoriteActivities: string[];
 favoriteActivities = ["Sports"];
