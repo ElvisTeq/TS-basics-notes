@@ -1,16 +1,23 @@
-function add(n1: number, n2: number, showResult: boolean, phrase: string) {
-  const result = n1 + n2;
+// Not good to do, JUST FOR EXAMPLE
 
-  if (showResult) {
-    console.log(phrase + result);
-  } else {
-    return result;
-  }
+// const person: {
+//   name: string;
+//   age: number;
+// }
+
+// TS will automatically assign the first TYPE as Default in the future
+const person = {
+  name: "Elvis",
+  age: 30,
+  hobbies: ["Sports", "Cooking"],
+};
+
+let favoriteActivities: string[];
+favoriteActivities = ["Sports"];
+
+console.log(person.name);
+
+for (const hobby of person.hobbies) {
+  console.log(hobby.toUpperCase());
+  // hobby.map() => will not work because "hobby" is a "String Type"
 }
-
-const num1 = 5;
-const num2 = 2.8;
-const printResult = true;
-const phrase = "Result is: ";
-
-const result = add(num1, num2, printResult, phrase);

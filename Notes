@@ -25,3 +25,18 @@ Core Types of TS
 15.
 
 - The initial value of a variable becomes the default TYPE in TS
+
+16.
+
+-------------------------------------- : {}
+
+- Object type
+- Types can be nested
+
+18.
+
+- Array types
+
+-------------------------------------- : string[]
+-------------------------------------- : number[]
+-------------------------------------- : boolean[]
