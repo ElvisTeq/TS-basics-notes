@@ -21,3 +21,7 @@
 Core Types of TS
 
 - number, string, boolean
+
+15.
+
+- The initial value of a variable becomes the default TYPE in TS
