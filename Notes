@@ -59,3 +59,13 @@ Core Types of TS
 - Creating a Enum
 - To assign labels into INDEX NUMBER
 - Labels values can be ANYTHING "numbers will automatically be assign +1 to the previous one"
+
+21.
+
+- Any 
+
+-------------------------------------- any, any[]
+
+- TS for ANYTHING
+- AVOID USING
+
