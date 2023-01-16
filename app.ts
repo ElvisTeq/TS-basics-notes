@@ -1,52 +1,17 @@
-// Not good to do, JUST FOR EXAMPLE
+function combine(input1: number | string, input2: number | string) {
+  let result;
 
-// const person: {
-//   name: string;
-//   age: number;
-// }
-
-// TS will automatically assign the first TYPE as Default in the future
-
-// const person: {
-//   name: string;
-//   age: number;
-//   hobbies: string[];
-//   role: [number, string];
-// } = {
-//   name: "Elvis",
-//   age: 30,
-//   hobbies: ["Sports", "Cooking"],
-//   role: [2, "author"],
-// };
-
-// person.role.push("admin");
-// - .push() breaks the TYPE rule
-
-// Creating enum
-enum Role {
-  // We can assign label manually "numbers will go ++ automatically"
-  ADMIN = "ADMIN",
-  READ_ONLY = 100,
-  AUTHOR = "AUTHOR",
+  // Not always needs runtime check "depends of the logic"
+  if (typeof input1 === "number" && typeof input2 === "number") {
+    result = input1 + input2;
+  } else {
+    result = input1.toString() + input2.toString();
+  }
+  return result;
 }
 
-const person = {
-  name: "Elvis",
-  age: 30,
-  hobbies: ["Sports", "Cooking"],
-  role: Role.ADMIN,
-};
+const combinedNumbers = combine(30, 26);
+console.log(combinedNumbers);
 
-let favoriteActivities: string[];
-favoriteActivities = ["Sports"];
-
-console.log(person.name);
-
-for (const hobby of person.hobbies) {
-  console.log(hobby.toUpperCase());
-  // hobby.map() => will not work because "hobby" is a "String Type"
-}
-
-if (person.role === Role.ADMIN) {
-  console.log("is admin");
-}
+const combinedNames = combine("Elvis", "Lily");
+console.log(combinedNames);

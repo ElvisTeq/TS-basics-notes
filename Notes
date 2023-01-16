@@ -69,3 +69,11 @@ Core Types of TS
 - TS for ANYTHING
 - AVOID USING
 
+22.
+
+- Union Types
+
+-------------------------------------- : number | string
+
+- To tell TS to expect 2 types
+- can add as many types as needed
