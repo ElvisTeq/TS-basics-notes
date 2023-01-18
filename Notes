@@ -77,3 +77,9 @@ Core Types of TS
 
 - To tell TS to expect 2 types
 - can add as many types as needed
+
+23.
+
+- Literal Types
+
+- To add a extra parameter to a function for extra validation
