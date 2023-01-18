@@ -83,3 +83,11 @@ Core Types of TS
 - Literal Types
 
 - To add a extra parameter to a function for extra validation
+
+24.
+
+- Type Aliases / Custom Types
+
+-------------------------------------- type ANYTHING = number | string
+
+- To store multiple types in a Custom Type (to reduce code)

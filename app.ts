@@ -1,7 +1,11 @@
+// Type Aliases
+type Combinable = number | string;
+type ConversionDescription = "as-number" | "as-text"; // Literal Type combine with Union Type
+
 function combine(
-  input1: number | string,
-  input2: number | string,
-  resultConversion: "as-number" | "as-text" // Literal Type combine with Union Type
+  input1: Combinable,
+  input2: Combinable,
+  resultConversion: ConversionDescription
 ) {
   let result;
 
