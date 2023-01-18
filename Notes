@@ -91,3 +91,28 @@ Core Types of TS
 -------------------------------------- type ANYTHING = number | string
 
 - To store multiple types in a Custom Type (to reduce code)
+
+25. 
+
+- Type Aliases & Object Types
+
+-------------------------------------- type User = { name: string, age: number }
+-------------------------------------- const u1: User = { name: 'Elvis', age: 30 }
+
+- To create Object Aliases Type
+
+26.
+
+- Function Return Types & Void
+
+-------------------------------------- function add(n1; number, n2: number): number {}
+
+- To tell TS what type a function to return
+
+-------------------------------------- Void type
+
+- When function does not return anything
+
+-------------------------------------- undefine type
+
+- can be used for functions and variables too
