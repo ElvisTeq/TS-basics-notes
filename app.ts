@@ -10,3 +10,12 @@ function printResult(num: number): void {
 printResult(add(5, 10));
 
 // let someValue: undefined
+
+// Function Types
+let combineValues: (a: number, b: number) => number; // Specifying how the function should look like
+
+// let combineValues: Function; // To accept any function
+
+combineValues = add;
+
+console.log(combineValues(5, 5));

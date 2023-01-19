@@ -116,3 +116,15 @@ Core Types of TS
 -------------------------------------- undefine type
 
 - can be used for functions and variables too
+
+27.
+
+- Function Type
+
+-------------------------------------- let ANYTHING: Function;
+
+- TS for function
+
+-------------------------------------- let ANYTHING: (a: number, b: number) => number;
+
+- TS for a specified function type
