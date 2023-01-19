@@ -146,3 +146,13 @@ Core Types of TS
 - Can be anything, but cannot be assigned to another specified TYPE
 - Better than "any" TYPE
 - can use "if" statement to be assigned to another specified TYPE
+
+30.
+
+- never Type
+
+-------------------------------------- function generateError(message: string, code: number): never {}
+
+- For functions we intent to return anything
+- Similar to "void" Type, but is used for better understanding
+- Mostly used for error functions

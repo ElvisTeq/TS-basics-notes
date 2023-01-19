@@ -10,3 +10,11 @@ userInput = "max";
 if (typeof userInput === "string") {
   userName = userInput;
 }
+
+// never = for functions that we intent to return nothing, mostly for error functions
+function generateError(message: string, code: number): never {
+  throw { message: message, errorCode: code };
+  // while (true) {}
+}
+
+generateError("Error", 500);
