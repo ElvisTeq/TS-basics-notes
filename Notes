@@ -136,3 +136,13 @@ Core Types of TS
 -------------------------------------- let ANYTHING: (a:number, b: number, cb: (num: number) => void) {}
 
 - Adding callback 
+
+29.
+
+- unkown Type
+
+-------------------------------------- let ANYTHING: unknown;
+
+- Can be anything, but cannot be assigned to another specified TYPE
+- Better than "any" TYPE
+- can use "if" statement to be assigned to another specified TYPE
