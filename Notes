@@ -128,3 +128,11 @@ Core Types of TS
 -------------------------------------- let ANYTHING: (a: number, b: number) => number;
 
 - TS for a specified function type
+
+28.
+
+- Function Type + Callbacks
+
+-------------------------------------- let ANYTHING: (a:number, b: number, cb: (num: number) => void) {}
+
+- Adding callback 
